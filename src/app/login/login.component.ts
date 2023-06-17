@@ -12,4 +12,9 @@ export class LoginComponent implements OnInit{
 
 
 
+
+  constructor(){
+    console.log("constructor is getting excuted");
+    
+  }
 }
