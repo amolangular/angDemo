@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+
+  constructor(){
+    console.log("constructor is getting excuted");
+    
+  }
 }
